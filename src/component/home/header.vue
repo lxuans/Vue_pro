@@ -1,19 +1,24 @@
 <template>
-    <header>
-        <p>这是页面头部</p>
+    <header class="header">
+        <mt-header fixed title="微商城"></mt-header>
+        <div></div>
     </header>
 </template>
 
 <script>
-    export default({
+    export default{
         data:function(){
             return {
 
             }
         }
-    })
+    }
 </script>
 
-<style lang="">
-    
+<style lang="less">
+    .header {
+        div {
+            height: 40px;
+        }
+    }
 </style>

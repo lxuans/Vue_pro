@@ -11,6 +11,7 @@
 <script>
     import Cheader from './home/header.vue';
     import Cfooter from './home/footer.vue';
+    
     export default {
         components:{
             'v-header':Cheader,

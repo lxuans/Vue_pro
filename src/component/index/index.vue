@@ -1,17 +1,26 @@
 <template>
-    <section>
-        <p>这是首页</p>
-    </section>
+    <article>
+        <v-swipe></v-swipe>
+        <v-nav></v-nav>
+    </article>
 </template>
 
 <script>
-    export default({
+
+    import Cswipe from './swipe.vue';
+    import Cnav from './nav.vue';
+
+    export default{
         date:function(){
             return {
                 
             }
+        },
+        components:{
+            'v-swipe': Cswipe,
+            'v-nav': Cnav
         }
-    })
+    }
 </script>
 
 <style lang="">
